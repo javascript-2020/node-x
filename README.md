@@ -36,16 +36,23 @@ node-x has a number of utility functions
 
 installation
 
-npm install node-x
+npm install -g node-x
+
+this will install the package globally so it can be called from anywhere on the file system
 
 
-add the node-x directory to the system path environment variable
+windows powershell users will need to remove the automatically generated ` node-x.ps1 ` because
+windows powershell by default does not allow running scripts automatically
+the powershell script is located at
 
-      windows   :
+`  C:\Users\<user>\AppData\Roaming\npm\node-x.ps1  `
 
-      linux     :
+after this file is removed further calls to node-x will be handled by ` node-x.cmd `
 
-      mac       :
+
+uninstallation
+
+npm uninstall -g node-x
 
 
 
