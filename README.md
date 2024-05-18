@@ -54,24 +54,36 @@ example useage
 given directory structure
 
   |--  /
+  
     |--  dir1
+    
       |--  localhost.js
+      
       |--  localhost-2.js
+      
     |--  dir2
+    
       |--  dir3
+      
         |--  server.js
+        
       |--  test.js
       
 ex.1
 
 pwd  : /
+
 cd dir1
+
 pwd  : /dir1
+
 node-x -add    //  adds /dir1 to list of directories
+
 
 ex.2
 
 pwd  : /
+
 node-x -add /dir2    //  adds /dir2 to list of directories
 
 ex.3
@@ -79,6 +91,7 @@ ex.3
 node-x -list
 
 /dir1
+
 /dir2
 
 ex.4
