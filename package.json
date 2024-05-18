@@ -1,0 +1,21 @@
+
+
+        {
+        
+              "name"          : "node-x",
+              "version"       : "3.0.0",
+              "description"   : "nodejs script launcher",
+              "author"        : "matt richards",
+              "license"       : "ISC"
+              
+              "main"          : "node-x-v3.0.js",
+              
+              "scripts"       : {},
+              
+              "keywords"      : ["nodejs","script","launcher"],
+              
+        }
+        
+        
+        
+        
