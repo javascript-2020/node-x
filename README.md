@@ -56,6 +56,9 @@ Add to the PATH on Windows 10 and Windows 11 https://www.architectryan.com/2018/
 
 Linux: Add a Directory to PATH https://phoenixnap.com/kb/linux-add-to-path
 
+Add to the PATH on Mac OS X 10.8 Mountain Lion and up https://www.architectryan.com/2012/10/02/add-to-the-path-on-mac-os-x-mountain-lion/
+
+
 
 ## uninstallation
 
