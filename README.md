@@ -34,7 +34,7 @@ node-x has a number of utility functions
 
 
 
-##installation
+## installation
 
 npm install -g node-x
 
@@ -53,13 +53,13 @@ alternatively the node-x package directory can be added to the system path, allo
 node-x.bar or node-x.sh scripts to launch the node-x process
 
 
-##uninstallation
+## uninstallation
 
 npm uninstall -g node-x
 
 
 
-##example useage
+## example useage
 
 given directory structure
 
@@ -79,7 +79,7 @@ given directory structure
         
       |--  test.js
       
-######ex.1
+###### ex.1
 
 pwd  : /
 
@@ -90,7 +90,7 @@ pwd  : /dir1
 node-x -add    //  adds /dir1 to list of directories
 
 
-######ex.2
+###### ex.2
 
 pwd  : /
 
@@ -104,7 +104,7 @@ node-x -list
 
 /dir2
 
-######ex.4
+###### ex.4
 
 node-x -files
 
@@ -113,12 +113,12 @@ node-x -files
 /dir2/dir3/server.js
 /dir2/test.js
 
-######ex.5
+###### ex.5
 
 pwd  : /work/some-further-directory/
 node-x localhost.js    //  localhost.js is executed
 
-######ex.6
+###### ex.6
 
 
 
