@@ -50,7 +50,11 @@ the powershell script is located at
 after this file is removed further calls to node-x will be handled by ` node-x.cmd `
 
 alternatively the node-x package directory can be added to the system path, allowing the included
-node-x.bar or node-x.sh scripts to launch the node-x process
+node-x.bat or node-x.sh scripts to launch the node-x process
+
+Add to the PATH on Windows 10 and Windows 11 https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/
+
+Linux: Add a Directory to PATH https://phoenixnap.com/kb/linux-add-to-path
 
 
 ## uninstallation
