@@ -86,7 +86,7 @@ given directory structure
         
       |--  test.js
       
-#### ex.1
+#### ex.1 : add /dir1 to list of directories
 
 pwd  : /
 
@@ -94,16 +94,16 @@ cd dir1
 
 pwd  : /dir1
 
-node-x -add    //  adds /dir1 to list of directories
+node-x -add
 
 
-#### ex.2
+#### ex.2 : add /dir2 to list of directories
 
 pwd  : /
 
-node-x -add /dir2    //  adds /dir2 to list of directories
+node-x -add /dir2
 
-#### ex.3
+#### ex.3 : list directories in use by node-x
 
 node-x -list
 
@@ -111,7 +111,7 @@ node-x -list
 
 /dir2
 
-#### ex.4
+#### ex.4 : list all files accessible by node-x
 
 node-x -files
 
@@ -120,7 +120,7 @@ node-x -files
 /dir2/dir3/server.js
 /dir2/test.js
 
-#### ex.5
+#### ex.5 : launch a nodejs script
 
 pwd  : /work/some-further-directory/
 node-x localhost.js    //  localhost.js is executed
