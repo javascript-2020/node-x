@@ -43,7 +43,7 @@ this will install the package globally so it can be called from anywhere on the 
 
 windows powershell users will need to remove the automatically generated ` node-x.ps1 ` because
 windows powershell by default does not allow running scripts automatically
-the powershell script is located at
+the powershell script should be located at
 
 `  C:\Users\<user>\AppData\Roaming\npm\node-x.ps1  `
 
@@ -86,7 +86,7 @@ given directory structure
         
       |--  test.js
       
-###### ex.1
+#### ex.1
 
 pwd  : /
 
@@ -97,13 +97,13 @@ pwd  : /dir1
 node-x -add    //  adds /dir1 to list of directories
 
 
-###### ex.2
+#### ex.2
 
 pwd  : /
 
 node-x -add /dir2    //  adds /dir2 to list of directories
 
-######ex.3
+#### ex.3
 
 node-x -list
 
@@ -111,7 +111,7 @@ node-x -list
 
 /dir2
 
-###### ex.4
+#### ex.4
 
 node-x -files
 
@@ -120,12 +120,12 @@ node-x -files
 /dir2/dir3/server.js
 /dir2/test.js
 
-###### ex.5
+#### ex.5
 
 pwd  : /work/some-further-directory/
 node-x localhost.js    //  localhost.js is executed
 
-###### ex.6
+#### ex.6
 
 
 
